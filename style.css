@@ -172,6 +172,43 @@ h1 {
     margin-top: 50px;
     background-color: white;
     border: solid 3px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.educationheader {
+    flex: 1;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    padding-top: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.educationcontent {
+    flex: 4;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.educationheader h2 {
+    margin-left: 20px;
+}
+
+.educationcontent h2 {
+    font-size: 30px;
+}
+
+.date {
+    color: gray;
+    font-size: 15px;
+}
+
+.educationcontent p {
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 .connectionrequests {
@@ -224,10 +261,47 @@ h1 {
 
 .userconnections {
     width: 80%;
-    height: 450px;
+    height: 40%;
     margin-bottom: 40px;
     background-color: white;    
     border: solid 3px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.userconnectionheader {
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.connectionnumber {
+    background-color: gray;
+    border-radius: 50%;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+}
+
+.connection {
+    width: 100%;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.bottombar {
+    width: 100%;
+    background-color: white;
+    border-top: 3px solid gray;
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .gapbelow {
@@ -246,8 +320,16 @@ h1 {
     height: 25px;
     width: 25px;
     vertical-align: middle;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .active {
     font-weight: bold;
+}
+
+#view_more {
+    color: rgb(2, 114, 184);
+    text-decoration: underline;
+    margin-left: 20px;
 }
